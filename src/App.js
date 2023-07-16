@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Calculator from "./components/Calculator";
 
 function App() {
+  
   return (
+    
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>CALCULATOR</h1>
+      <Calculator />
+      <br></br>
+      <div className="rule"></div>
+      <p className="txt">By Dikshant Luthra , All rights reserved &#169; 2023</p>
     </div>
   );
 }

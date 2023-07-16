@@ -1,7 +1,17 @@
+*{
+  margin: 0px;
+}
 .App {
   text-align: center;
 }
-
+.rule{
+  border-bottom: 2px solid black;
+  width: 480px;
+  margin: auto auto;
+}
+.txt{
+  font-weight: 600;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -27,7 +37,9 @@
 .App-link {
   color: #61dafb;
 }
-
+body{
+  background-color: #9BABB8;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
